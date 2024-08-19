@@ -304,17 +304,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Stock Price Prediction":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Stock Price Prediction</h2>
+            <h2 class="project-title">Stock Price Prediction</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Financial_Data_Science__Stock_Prediction" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-bottom: 10px;">
+                    <p class="project-description">
                         Developed a stock price prediction model using LSTM neural networks, achieving 87% accuracy in predicting stock prices for technology companies.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>LSTM Neural Networks</li>
                         <li>Python</li>
@@ -331,17 +331,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Commonsense QA Model":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Commonsense QA Model</h2>
+            <h2 class="project-title">Commonsense QA Model</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Commonsense-QA" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-bottom: 10px;">
+                    <p class="project-description">
                         Built a commonsense question-answering model using BERT, achieving a significant improvement in answering accuracy by incorporating contextual understanding.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>BERT</li>
                         <li>Python</li>
@@ -360,17 +360,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Client Server Token Manager":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Client Server Token Manager</h2>
+            <h2 class="project-title">Client Server Token Manager</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Token-Management-in-Go" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-bottom: 10px;">
+                    <p class="project-description">
                         Developed a client-server token management system using Go, ensuring secure and efficient token handling for various applications.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Go</li>
                         <li>REST API</li>
@@ -388,17 +388,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Encrypted File System":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Encrypted File System</h2>
+            <h2 class="project-title">Encrypted File System</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Enhanced-Distributed-File-System" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Developed an encrypted file system using Python and AES encryption, providing secure file storage and access control for sensitive data.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>AES Encryption</li>
@@ -415,17 +415,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Information Retrieval System":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Information Retrieval System</h2>
+            <h2 class="project-title">Information Retrieval System</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Information-Retrieval" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Created an information retrieval system using Python, NLP, and BM25 algorithm to efficiently search and retrieve relevant documents from large datasets.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>NLP</li>
@@ -443,17 +443,17 @@ elif selected_main == "Projects":
     elif selected_projects == "Blog Generator":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Blog Generator</h2>
+            <h2 class="project-title">Blog Generator</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/Llama2_Blog_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Developed an automated blog generator using Python, NLP, and GPT-3, enabling users to generate high-quality blog posts based on specific topics and keywords.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>NLP</li>
@@ -470,17 +470,17 @@ elif selected_main == "Projects":
     elif selected_projects == "NER Tagging Application":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">NER Tagging Application</h2>
+            <h2 class="project-title">NER Tagging Application</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/NER_Application" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Built a Named Entity Recognition (NER) tagging application using Python, SpaCy, and Flask, allowing users to tag and categorize entities within large text datasets.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>SpaCy</li>
@@ -497,17 +497,17 @@ elif selected_main == "Projects":
     elif selected_projects == "MCQ Generator":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">MCQ Generator</h2>
+            <h2 class="project-title">MCQ Generator</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/MCQ_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Created an MCQ generator using Python and Flask, which generates multiple-choice questions from a given dataset and allows users to customize question parameters.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>Flask</li>
@@ -523,17 +523,17 @@ elif selected_main == "Projects":
     elif selected_projects == "NLP Sentiment Analyzer":
         st.markdown('''
         <div class="project-box">
-            <h2 style="text-align: center; color: #333;">Sentiment Analyzer</h2>
+            <h2 class="project-title">Sentiment Analyzer</h2>
             <div class="flex-container" style="margin-top: 20px;">
                 <div style="flex: 1; min-width: 200px; margin-right: 20px;">
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
                     <a href="https://github.com/dAnushka77/NLP_Sentiment_Analyzer_Model" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
-                    <p style="font-size: 16px; color: #333; margin-top: 20px;">
+                    <p class="project-description">
                         Developed a sentiment analysis model using Python and NLP techniques, providing insights into the sentiment and emotional tone of textual data.
                     </p>
-                    <p style="font-size: 16px; color: #333; font-weight: bold;">Tech Stack Used:</p>
+                    <p class="project-description" style="font-weight: bold;">Tech Stack Used:</p>
                     <ul style="font-size: 16px; color: #333;">
                         <li>Python</li>
                         <li>NLP</li>
