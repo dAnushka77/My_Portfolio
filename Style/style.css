@@ -1,0 +1,98 @@
+/* Style for the sidebar */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa; /* Light gray background */
+    border-right: 1px solid #e0e0e0; /* Subtle border for separation */
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for sidebar menu items */
+.sidebar .sidebar-menu {
+    padding: 0;
+}
+
+.sidebar .sidebar-menu .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.sidebar .sidebar-menu .nav-link:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    border-radius: 4px;
+}
+
+.sidebar .sidebar-menu .nav-link.active {
+    background-color: #007bff; /* Blue background for the active menu item */
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Style for sidebar icons */
+.sidebar .sidebar-menu .icon {
+    font-size: 20px;
+    color: #007bff; /* Blue color for icons */
+}
+
+/* Set the background color of the entire app */
+body {
+    background-color: #f0f8ff; /* Light blue background, change to your preferred color */
+}
+
+/* Style for the "Download My Resume" button */
+button.download-resume {
+    background-color: #98fb98; /* Light green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.download-resume:hover {
+    background-color: #90ee90; /* Slightly darker green on hover */
+}
+
+/* Style for the project box */
+.project-box {
+    border: 2px solid #00ced1; /* Turquoise border */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out;
+    background-color: #fffaf0; /* Light ivory background for the boxes */
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.project-box:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Additional styling for the project titles */
+.project-title {
+    font-size: 1.5em;
+    color: #4682b4; /* Steel blue color */
+    margin-bottom: 10px;
+    text-align: left; /* Ensure title is left-aligned */
+}
+
+/* Styling for the project description */
+.project-description {
+    font-size: 1.1em;
+    color: #696969; /* Dim gray color */
+    text-align: left; /* Ensure description is left-aligned */
+}
+
+
+/* Flex container for aligning items */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
