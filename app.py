@@ -157,7 +157,16 @@ with st.sidebar:
                 "nav-link-selected": {"background-color": "#B3E5FC"},
             }
         )
-   
+
+    st.write("##")
+    st.write("##")
+    # Footer section
+    #st.image(image_anushka, width=200, use_column_width='never', caption=None)
+    st.sidebar.markdown("""
+        <div class="footer">
+            <div>Made with ❤️ by Anushka</div>
+        </div>
+    """, unsafe_allow_html=True)
 
 # Main content based on sidebar selection
 if selected_main == "Info":
