@@ -803,7 +803,7 @@ elif selected_main == "Contact Me":
     contact_form = """
     <form action="https://formsubmit.co/anushkadhekne@gmail.com" method="POST" onsubmit="handleFormSubmit(event)">
          <input type="hidden" name="_captcha" value="false">
-         <input type="hidden" name="_next" value="https://myportfolio-anu7shkadhekne7.streamlit.app/"> <!-- Redirect URL after submission -->
+         <input type="hidden" name="_next" value="https://myportfolio-anu7shkadhekne7.streamlit.app/"> 
          <input type="text" name="name" placeholder="Your name" required>
          <input type="email" name="email" placeholder="Your email" required>
          <textarea name="message" placeholder="Your message here" required></textarea>
