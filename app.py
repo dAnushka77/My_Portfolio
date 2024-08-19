@@ -158,12 +158,11 @@ with st.sidebar:
             }
         )
 
-    st.write("##")
-    st.write("##")
     # Footer section
-    #st.image(image_anushka, width=200, use_column_width='never', caption=None)
+    st.write("##")
+    st.write("##")
     st.sidebar.markdown("""
-        <div class="footer">
+        <div class="footer" style="text-align: center; font-size: 12px; color: #555555;">
             <div>Made with ❤️ by Anushka</div>
         </div>
     """, unsafe_allow_html=True)
