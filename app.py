@@ -40,7 +40,7 @@ image7 = "Images/OCI_Cloud_Data_Management.png"
 image8 = "Images/OCI_Cloud_Infrastructure_Associate.png"
 image9 = "Images/OCI_GenAI.png"
 image10 = "Images/Udemy_Golang.png"
-
+#image_anushka = "Images/Anushka.jpg"
 
 # Initialize session state for contact form submission
 if 'form_submitted' not in st.session_state:
@@ -82,6 +82,21 @@ with st.sidebar:
         }
         .sidebar .sidebar-content .nav-link i {
             margin-right: 0.5rem;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+        .footer img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
         }
         </style>
         """, unsafe_allow_html=True
@@ -157,7 +172,8 @@ with st.sidebar:
                 "nav-link-selected": {"background-color": "#B3E5FC"},
             }
         )
-
+        
+        
     # Footer section
     st.write("##")
     st.write("##")
@@ -166,7 +182,8 @@ with st.sidebar:
             <div>Made with ❤️ by Anushka</div>
         </div>
     """, unsafe_allow_html=True)
-
+    
+    
 # Main content based on sidebar selection
 if selected_main == "Info":
     if selected_info == "About":
@@ -260,7 +277,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Job_Description_and_Resume_Matching_System" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Job_Description_and_Resume_Matching_System" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Created a resume matching system using Python, Flask, NLP, SpaCy, TfIDF, and Scikit-Learn. This system matches resumes with job descriptions based on key skills and experience, improving the recruitment process by 30%.
                     </p>
@@ -291,7 +308,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/YouTube-Trending-Videos-Analysis" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/YouTube-Trending-Videos-Analysis" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Analyzed trending YouTube videos using Python, Pandas, and Matplotlib. Extracted insights on trending topics, viewership patterns, and content creators' strategies.
                     </p>
@@ -318,7 +335,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Financial_Data_Science__Stock_Prediction" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Financial_Data_Science__Stock_Prediction" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Developed a stock price prediction model using LSTM neural networks, achieving 87% accuracy in predicting stock prices for technology companies.
                     </p>
@@ -345,7 +362,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Commonsense-QA" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Commonsense-QA" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Built a commonsense question-answering model using BERT, achieving a significant improvement in answering accuracy by incorporating contextual understanding.
                     </p>
@@ -374,7 +391,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Token-Management-in-Go" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Token-Management-in-Go" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Developed a client-server token management system using Go, ensuring secure and efficient token handling for various applications.
                     </p>
@@ -402,7 +419,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Enhanced-Distributed-File-System" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Enhanced-Distributed-File-System" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Developed an encrypted file system using Python and AES encryption, providing secure file storage and access control for sensitive data.
                     </p>
@@ -429,7 +446,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Information-Retrieval" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Information-Retrieval" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Created an information retrieval system using Python, NLP, and BM25 algorithm to efficiently search and retrieve relevant documents from large datasets.
                     </p>
@@ -457,7 +474,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/Llama2_Blog_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/Llama2_Blog_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Developed an automated blog generator using Python, NLP, and GPT-3, enabling users to generate high-quality blog posts based on specific topics and keywords.
                     </p>
@@ -484,7 +501,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/NER_Application" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/NER_Application" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Built a Named Entity Recognition (NER) tagging application using Python, SpaCy, and Flask, allowing users to tag and categorize entities within large text datasets.
                     </p>
@@ -511,7 +528,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/MCQ_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/MCQ_Generator" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Created an MCQ generator using Python and Flask, which generates multiple-choice questions from a given dataset and allows users to customize question parameters.
                     </p>
@@ -537,7 +554,7 @@ elif selected_main == "Projects":
                     <div id="project-image"></div>
                 </div>
                 <div style="flex: 2; min-width: 250px;">
-                    <a href="https://github.com/dAnushka77/NLP_Sentiment_Analyzer_Model" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;">GitHub Link</a>
+                    <a href="https://github.com/dAnushka77/NLP_Sentiment_Analyzer_Model" style="font-weight: bold; color: #4682b4; text-decoration: none; display: block; margin-bottom: 10px;"><span style="font-size: 20px; margin-right: 8px;">💡</span>GitHub Link</a>
                     <p class="project-description">
                         Developed a sentiment analysis model using Python and NLP techniques, providing insights into the sentiment and emotional tone of textual data.
                     </p>
