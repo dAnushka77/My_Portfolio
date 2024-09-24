@@ -27,7 +27,7 @@ lottie_contact = load_lottie_url("https://lottie.host/7a6810d9-5b60-4327-85ec-f5
 
 #image1 = Image.open("Images/april.png")
 image_resume_thumbnail = Image.open("Images/resume_thumbnail.png")
-pdf_path = "Images/AnushkaDhekne__Resume.pdf"
+pdf_path = "Images/AnushkaDhekne_Resume.pdf"
 
 # Images for certifications
 image1 = "Images/AutomationPro-I.png"
@@ -179,7 +179,7 @@ with st.sidebar:
     st.write("##")
     st.sidebar.markdown("""
         <div class="footer" style="text-align: center; font-size: 12px; color: #555555;">
-            <div>Made with ❤️ by Anushka</div>
+            <div>Made by Anushka Dhekne</div>
         </div>
     """, unsafe_allow_html=True)
     
@@ -230,6 +230,12 @@ if selected_main == "Info":
         with col4:
             st.subheader("Professional Experience")
             st.markdown("""
+                - <p style="text-decoration: underline;">Workforce Genetics, LLC (Machine Learning Intern) | August 2024 - Present</p>
+                    - Boosted job matching accuracy by 25% via ML models.
+                    - Integrated Python, Google Cloud, Airtable APIs for content optimization.
+                    - Built scalable pipelines, enhancing model performance by 25% and cutting deployment time by 70%.<br>
+     
+                ##
                 - <p style="text-decoration: underline;">Cerebrone.ai (Cloud Intern) | August 2023 - December 2023</p>
                     - Managed AWS EC2 and Linux.<br>
                     - Designed scalable Edge AI solutions.<br>
